@@ -1,0 +1,38 @@
+#body_ {
+    background-color: #ffffff;
+    width: 1550px;
+    height: 289px;
+    border: 1px;
+    border-style: dotted;
+    border-color: black;
+}
+.band {
+    background-color: #ffe5e5;
+    width: 60px;
+    height: 287px;
+
+}
+#bands {
+    margin-right: 225px;
+    margin-left: 225px;
+    width: 1100;
+    height: 287;
+    /*border: 1px;
+    border-style: dotted;
+    border-color: black;*/
+    display: flex;
+    justify-content: space-between
+}
+.content {
+    width: 220px;
+    height: 287px;
+    align-items: center;
+    border: 1px;
+    border-style: dotted;
+    border-color: black;
+}
+.layer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
